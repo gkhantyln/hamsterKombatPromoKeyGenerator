@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo-wrapper {
+    /*width: 100px; /* Logo genişliği */
+    /*height: 100px; /* Logo yüksekliği */
+    margin-bottom: 20px; /* Logo ile diğer öğeler arasına boşluk ekle */
+    border: 3px solid #FFD700; /* Altın çerçeve */
+    border-radius: 8px; /* Çerçevenin köşelerini yuvarlat */
+    overflow: hidden; /* Çerçeveden dışarı çıkışı gizle */
+    position: relative; /* İçerik konumunu kontrol et */
+}
+
+.logo {
+    width: 100%;
+    height: auto; /* Oranları koru */
+    transition: transform 0.3s ease; /* Geçiş efekti */
+}
+
+
+.logo-wrapper:hover .logo {
+    transform: scale(1.3); /* Logo'yu %10 büyüt */
+}
+
+.logo-wrapper:hover {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 1), 0 0 30px rgba(255, 215, 0, 0.5); /* Gölge dağılma efekti */
+}
+
+.container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #FFD700; /* Altın çerçeve */
+	margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #FFD700; /* Altın rengi */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #FFD700; /* Altın rengi */
+}
+
+select {
+    padding: 10px;
+    width: 15%;
+    margin-bottom: 20px;
+    border: 1px solid #FFD700; /* Altın çerçeve */
+    border-radius: 4px;
+    background-color: #2c2c2c; /* Koyu arka plan */
+    color: #FFD700; /* Altın rengi */
+}
+
+#gameSelect{
+	
+	width: 50%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Altın arka plan */
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    background-color: #f8c200; /* Daha açık altın tonu */
+    box-shadow: 0 6px 12px rgba(255, 215, 0, 0.8);
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: #FFD700; /* Altın rengi */
+    border-radius: 4px;
+    transition: width 0.3s;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);
+}
+
+.progress-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #FFD700; /* Altın rengi */
+}
+
+.key-container {
+    margin-top: 20px;
+}
+
+.key-container h2 {
+    color: #FFD700; /* Altın rengi */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+.keys-list {
+    text-align: left;
+}
+
+.key-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #2c2c2c; /* Koyu arka plan */
+    padding: 10px;
+    border: 1px solid #FFD700; /* Altın çerçeve */
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);
+    word-wrap: break-word;
+}
+
+.key-item input {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    color: #FFD700; /* Altın rengi */
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.key-item button {
+    margin-left: 10px;
+    background-color: #FFD700; /* Altın arka plan */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.key-item button:hover {
+    background-color: #f8c200; /* Daha açık altın tonu */
+    box-shadow: 0 6px 12px rgba(255, 215, 0, 0.8);
+}
+
+.hidden {
+    display: none;
+}
+
+.copy-status {
+    margin-top: 10px;
+    color: #FFD700; /* Altın rengi */
+    font-weight: bold;
+}
+
+
+.donation-section{
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+    color: #FFD700;
+}

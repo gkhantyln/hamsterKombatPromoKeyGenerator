@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Kombat Key Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-wrapper">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" class="logo">
+        </div>
+        <label for="gameSelect">Select Game:</label>
+        <select id="gameSelect">
+            <option value="1">Riding Extreme 3D</option>
+            <option value="2">Chain Cube 2048</option>
+            <option value="3">My Clone Army</option>
+            <option value="4">Train Miner</option>
+        </select>
+        <label for="keyCountSelect" id="keyCountLabel">Number of Keys:</label>
+        <select id="keyCountSelect">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <button id="startBtn" class="button">Generate Keys</button>
+        <div id="progressContainer" class="progress-container hidden">
+            <div id="progressBar" class="progress-bar"></div>
+            <span id="progressText" class="progress-text">0%</span>
+        </div>
+        <div id="keyContainer" class="key-container hidden">
+            <h2 id="generatedKeysTitle">Generated Keys:</h2>
+            <div id="keysList" class="keys-list"></div>
+            <button id="copyAllBtn" class="button hidden">Copy All Keys</button>
+            <button id="generateMoreBtn" class="button hidden">Generate More</button>
+            <div id="copyStatus" class="copy-status hidden">Copied</div>
+        </div>
+        <div class="donation-section" style="margin-top: 20px; text-align: center;">
+            <h2 style="color: #e1e1e1; font-weight: bold;">If you liked it, you can send a donation:</h2>
+            <p>USDT (TRC20 Network) Address:</p>
+            <p style="color: #e1e1e1;" class="donation-address">TNwmgqnoqZfNWddb9aKnBPVoNpZxCerbHc</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

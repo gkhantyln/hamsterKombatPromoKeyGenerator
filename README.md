@@ -2,7 +2,7 @@
 
 Welcome to the **Hamster Kombat Key Generator**! This web application allows you to easily generate promotional keys for your favorite games.
 
-![Hamster Kombat Key Generator 2024](https://github.com/gkhantyln/hamsterKombatPromoKeyGenerator/blob/main/screen.png)
+![Hamster Kombat Key Generator 2024](https://github.com/gkhantyln/hamsterKombatPromoKeyGenerator/blob/main/hamster.png)
 
 
 ## Features

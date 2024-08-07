@@ -64,7 +64,7 @@ If you liked the tool, you can support us by sending a donation.
 
 **If you liked it, you can send a donation:**
 
-**USDT (TRC Network) Address:**
+**USDT (TRC20 Network) Address:**
 
 ```plaintext
 TNwmgqnoqZfNWddb9aKnBPVoNpZxCerbHc

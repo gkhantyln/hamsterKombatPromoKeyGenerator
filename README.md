@@ -2,6 +2,8 @@
 
 Welcome to the **Hamster Kombat Key Generator**! This web application allows you to easily generate promotional keys for your favorite games.
 
+
+
 ![Hamster Kombat Key Generator 2024](https://github.com/gkhantyln/hamsterKombatPromoKeyGenerator/blob/main/hamster.png)
 
 
@@ -20,6 +22,7 @@ Welcome to the **Hamster Kombat Key Generator**! This web application allows you
 - Chain Cube 2048
 - My Clone Army
 - Train Miner
+- Merge Away `NEW GAME ADDED! 15.08.2024`
 
 ## Usage
 

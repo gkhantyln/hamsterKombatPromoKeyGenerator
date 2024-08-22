@@ -24,6 +24,7 @@ Welcome to the **Hamster Kombat Key Generator**! This web application allows you
 - Train Miner
 - Merge Away `NEW 15.08.2024`
 - Twerk Race 3D `NEW 16.08.2024`
+- Polysphere `NEW 22.08.2024`
 
 ## Usage
 
